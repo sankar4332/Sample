@@ -19,6 +19,7 @@ public class Alert {
 	    org.openqa.selenium.Alert alert = driver.switchTo().alert();
 	    alert.sendKeys("selenium");
 	    alert.dismiss();
+	    alert.dismiss();
 	}
 
 }
